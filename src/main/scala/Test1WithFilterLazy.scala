@@ -1,4 +1,4 @@
-//withfilter == lazy, filter = strict
+//withFilter == lazy, filter = strict
 
 object Test1WithFilterLazy extends App {
 

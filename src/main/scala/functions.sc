@@ -88,7 +88,7 @@
 //println(add(5,6)
 //val numberAsVal = {println("Value number is initialized."); 99 }
 // Call-by-value vs Call-by-nam//                                                               e
-                               //print(numberAsVar)
+//print(numberAsVar)
 //def callByValue(a: Boolean, bprint(numberAsVal)                                               :Unit) = {
 //    if(a) {
 //     println("Hey")
@@ -125,7 +125,7 @@
 
 //var start = System.currentTimeMillis()
 //lazy val tiresomeValue = {(1 to 1000000).filter(x => x % 2 == 0).sum}
-//if (scala.util.Random.nextInt % 2 == 0) {
+//for(i <- 1 to 3){
 //  println("val is " + tiresomeValue)
 //}
 //var end = System.currentTimeMillis()
@@ -148,22 +148,24 @@
 
 
 
-def measure(action: Unit) = {
-    println("Starting to measure time")
-    val startTime = System.nanoTime
-    action
-    val endTime = System.nanoTime
-      println("Operation took "+(endTime-startTime)+" ns")
-}
-
-measure {
-    println("Will now sleep a little")
-    Thread.sleep(1000)
-}
-
-//on success and on failure
-
-def fun(onSuccess: => Unit,onFail: => Unit ): Unit =  {
+//def measure(action: Unit) = {
+//  println("Starting to measure time")
+//  val startTime = System.nanoTime
+//  action
+//  val endTime = System.nanoTime
+//  println("Operation took "+(endTime-startTime)+" ns")
+//}
+//
+//measure {
+//  println("Will now sleep a little")
+//  Thread.sleep(1000)
+//}
+//
 
 
-}
+////on success and on failure
+//
+//def fun(onSuccess: => Unit,onFail: => Unit ): Unit =  {
+//
+//
+//}
